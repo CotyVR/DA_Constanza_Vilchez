@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   categoryTitle: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: "bold",
   },
   image: {
