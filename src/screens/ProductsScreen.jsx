@@ -1,8 +1,17 @@
-import { FlatList, StyleSheet, Text, View, Image } from "react-native";
+import { FlatList, StyleSheet, Text, View, Image, Pressable } from "react-native";
 import products from "../data/products.json"
 import FlatCard from "../components/FlatCard";
+import { colors } from '../global/colors'
+import { useEffect, useState } from "react";
 
-const ProductsScreen = () => {
+const ProductsScreen = ({category,setCategory}) => {
+    const [productsFiltered, setProductsFiltered] = useState([])
+
+    useEffect(()=>{
+        const productsTempFiltered = products.filter(product => product.category === category)
+        setProductsFiltered(productsTempFiltered)
+    },[category])
+
     const renderProductItem = ({item})=>{
         return(
             <FlatCard style={styles.productsContainer}>
@@ -14,44 +23,93 @@ const ProductsScreen = () => {
                     />
                 </View>
                 <View style={styles.productDescription}>
-                    <Text>{item.title}</Text>
-                    <Text>{item.shortDescription}</Text>
-                    <FlatList
-                        data={item.tags}
-                        keyExtractor={()=>Math.random()}
-                        renderItem={({item})=><Text>{item}</Text>}
-                    />
+                <Text style={styles.productTitle}>{item.title}</Text>
+                <Text style={styles.shortDescription}>{item.shortDescription}</Text>
+                <View style={styles.tags}>
+                    <Text style={styles.tagText}>Tags: </Text>
                     {
-                        item.discount>0 && <Text>Descuento: {item.discount}</Text>
+                        <FlatList
+                         style={styles.tags}
+                         data={item.tags}
+                         keyExtractor={()=>Math.random()}
+                        renderItem={({item})=><Text style={styles.tagText}>{item}</Text>}
+                        />
                     }
-                    <Text>{item.price}</Text>
+                    </View>
+                    {
+                         item.discount > 0 && <View style={styles.discount}><Text style={styles.discountText}>Descuento {item.discount} %</Text></View>
+                    }
+                    {
+                            item.stock <= 0 && <Text style={styles.noStockText}>Sin Stock</Text>
+                        }
+                        <Text style={styles.price}>Precio: $ {item.price}</Text>
                 </View>
             </FlatCard>
         )
     }
     return (
+        <>
+        <Pressable onPress={()=>setCategory("")}><Text>Volver</Text></Pressable>
        <FlatList    
-        data={products}
+        data={productsFiltered}
         keyExtractor={item=>item.id}
         renderItem={renderProductItem}
         />
+        </>
     )
 }
 
 export default ProductsScreen
 
 const styles = StyleSheet.create({
-    productsContainer:{
-        flexDirection:'row',
-        padding:20,
-        justifyContent:"flex-start",
-        gap:20,
+    productsContainer: {
+        flexDirection: 'row',
+        padding: 10,
+        justifyContent: "flex-start",
+        margin: 10,
+        alignItems: "center",
+        gap: 2
     },
-    productImage:{
-        width:100,
-        height:100
+    productImage: {
+        width: 100,
+        height: 100
     },
-    productDescription:{
-        width: "65%",
+    productDescription: {
+        width: "80%",
+        padding: 20,
+        gap: 5
+    },
+    productTitle: {
+        fontFamily: 'Inter',
+        fontWeight: '800',
+        fontSize: 17
+    },
+    shortDescription: {
+        fontFamily: 'Satisfy'
+    },
+    tags: {
+        flexDirection: 'row',
+        gap: 5
+    },
+    tagText: {
+        fontWeight: '600',
+        fontSize: 12,
+        color: colors.azulCobalto
+    },
+    price: {
+        fontWeight: '800',
+        fontSize: 18
+    },
+    discount: {
+        backgroundColor: colors.azulCobalto,
+        padding: 8,
+        borderRadius: 12,
+        alignSelf: 'flex-start'
+    },
+    discountText: {
+        color: colors.blanco
+    },
+    noStockText: {
+        color: 'red'
     }
 })

@@ -14,11 +14,11 @@ export default FlatCard
 
 const styles = StyleSheet.create({
     cardContainer:{
-        backgroundColor: colors.verde,
+        backgroundColor: colors.verdeMuyClaro,
         shadowColor: colors.azulCobalto,
         shadowOpacity: 1,
         shadowRadius: 1,
         shadowOffset: {width: 3, height:5},
-        elevation:5,
+        elevation:10,
     }
 })

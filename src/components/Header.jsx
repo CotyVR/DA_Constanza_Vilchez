@@ -5,7 +5,7 @@ import {colors} from "../global/colors"
 const Header = () => {
     return (
         <View style={styles.headerContainer}>
-            <Text stylele={styles.title}>Mundo Geek</Text>
+            <Text style={styles.title}>Mundo Plantas</Text>
         </View>
     )
 }
@@ -18,11 +18,11 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         /* Forma en que se usa la paleta de colores */
-        backgroundColor:colors.azulCobalto
+        backgroundColor:colors.verdeOscuro
     },
     title:{
-        fondSize: 16,
-        frontWeight: "bold",
-        color:colors.verde
+        fontSize: 30,
+        color:colors.cafeClaro,
+        fontFamily: 'Satisfy'
     }
 })

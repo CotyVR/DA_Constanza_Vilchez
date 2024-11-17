@@ -5,15 +5,17 @@ import { StatusBar } from "expo-status-bar";
 import CategoriesSreen from "./src/screens/CategoriesScreen";
 import ProductsScreen from "./src/screens/ProductsScreen";
 import Header from "./src/components/Header";
-import { useEffect } from "react";
+import { useEffect, useState } from "react"
 
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
   const [loaded, error] = useFonts({
-    'Inter-Variable': require('./assets/fonts/Inter-Variable.ttf'),
+    'Inter': require('./assets/fonts/Inter-Variable.ttf'),
     'Satisfy': require('./assets/fonts/Satisfy-Static.ttf')
   });
+
+  const[category, setCategory] = useState("")
 
   useEffect(()=>{
     if(loaded || error){
@@ -28,7 +30,13 @@ export default function App() {
   return (
     <>
       <Header />
-      <ProductsScreen />
+      {
+        category
+        ?
+        <ProductsScreen category={category} setCategory={setCategory}/>
+        :
+        <CategoriesSreen setCategory={setCategory}/>
+      }
       <StatusBar style="light" />
     </>
   );

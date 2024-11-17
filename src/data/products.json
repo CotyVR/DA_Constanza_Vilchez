@@ -96,7 +96,7 @@
     "shortDescription": "Planta decorativa con hojas de colores brillantes.",
     "longDescription": "El Aglaonema es perfecto para interiores con poca luz. Es resistente y fácil de mantener.",
     "price": 8500,
-    "stock": 9,
+    "stock": 0,
     "brand": "Viveros Oasis",
     "category": "Plantas de Interior",
     "discount": 0,
@@ -114,7 +114,7 @@
     "category": "Plantas de Interior",
     "discount": 0,
     "tags": ["follaje", "resistente"],
-    "mainImage": "https://es.plantsfarm.com/uploads/202237056/madagascar-dragon-tree-dracaena-marginata59552676966.jpg"
+    "mainImage": "https://verdecora.es/blog/wp-content/uploads/2022/01/dracena-marginata-maceta.jpg.webp"
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
     "category": "Plantas de Interior",
     "discount": 0,
     "tags": ["palmera", "elegante"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/kentia.png?v=1722782276&width=540"
+    "mainImage": "https://www.tugarden.com/4298-superlarge_default/kentia-howea-forsteriana.jpg"
   },
   {
     "id": 11,
