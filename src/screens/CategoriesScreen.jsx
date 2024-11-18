@@ -1,12 +1,26 @@
-import { StyleSheet, Text, View, FlatList, Image, Pressable } from "react-native";
+import { StyleSheet, Text, View, FlatList, Image, Pressable, useWindowDimensions } from "react-native";
 /* No es necesario colocar las llaves, debido a que exportamos el archivo entero --> en "categories" */
 import categories from "../data/categories.json";
 import FlatCard from "../components/FlatCard";
+import {useEffect,useState} from 'react'
 
-const CategoriesSreen = ({setCategory}) => {
+const CategoriesSreen = ({navigation}) => {
+
+  const {width,height} = useWindowDimensions()
+  const [isPortrait,setIsPortrait]=useState(true)
+
+  useEffect(()=>{
+    if(width,height){
+      setIsPortrait(false)
+    }else{
+      setIsPortrait(true)
+    }
+  },
+  [width,height])
+
   const renderCategoryItem = ({ item, index }) => {
     return (
-      <Pressable onPress={()=>setCategory(item.title)}>
+      <Pressable onPress={()=>navigation.navigate('Productos', item.title)}>
       <FlatCard
         style={
           //Uso de operador ternario condicion?si verdadero:si falso --> Permite ver si algo es par o no --> Me permite alternar las direcciones de las imagenes con los titulos (se encuentra vinculado al final -- const -- row -- rowReverse)
@@ -63,3 +77,5 @@ const styles = StyleSheet.create({
     flexDirection: "row-reverse",
   },
 });
+
+

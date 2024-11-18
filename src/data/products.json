@@ -140,7 +140,7 @@
     "category": "Plantas de Exterior",
     "discount": 0,
     "tags": ["floración invernal", "resistente al frío"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/ciclamen.png?v=1722782276&width=540"
+    "mainImage": "https://www.hogarmania.com/archivos/201105/ciclamen-xl-848x477x80xX.jpg"
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
     "category": "Plantas de Exterior",
     "discount": 0,
     "tags": ["aromática", "resistente"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/romero.png?v=1722782276&width=540"
+    "mainImage": "https://mekero.cl/cdn/shop/files/romerom-min_540x.png?v=1700425038"
   },
   {
     "id": 13,
@@ -166,7 +166,7 @@
     "category": "Plantas de Exterior",
     "discount": 0,
     "tags": ["árbol", "cerca viva"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/cipres.png?v=1722782276&width=540"
+    "mainImage": "https://theplantstore.cl/wp-content/uploads/2023/12/pino-cipres02.png"
   },
   {
     "id": 14,
@@ -179,7 +179,7 @@
     "category": "Plantas de Exterior",
     "discount": 0,
     "tags": ["medicinal", "resistente"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/aloe-vera.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Aloe_vera%2C_Jard%C3%ADn_Bot%C3%A1nico%2C_M%C3%BAnich%2C_Alemania_2012-04-21%2C_DD_01.JPG/330px-Aloe_vera%2C_Jard%C3%ADn_Bot%C3%A1nico%2C_M%C3%BAnich%2C_Alemania_2012-04-21%2C_DD_01.JPG"
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
     "category": "Plantas de Exterior",
     "discount": 10,
     "tags": ["floración", "decorativa"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/hortensia.png?v=1722782276&width=540"
+    "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNOXpj09O4JRURdGdVl-RtciJMKKxw-2pthZvMKlQ1QYg0vko8"
   },
   {
     "id": 16,
@@ -205,7 +205,7 @@
     "category": "Plantas de Exterior",
     "discount": 0,
     "tags": ["bulbosa", "floración"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/azucena.png?v=1722782276&width=540"
+    "mainImage": "https://cdnx.jumpseller.com/camelia-y-lavanda/image/27737317/resize/1000/1100?1674130815"
   },
   {
     "id": 17,
@@ -218,7 +218,7 @@
     "category": "Plantas de Exterior",
     "discount": 0,
     "tags": ["decorativa", "floración"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/geranios.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Geranio_rosa.jpg/330px-Geranio_rosa.jpg"
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
     "category": "Plantas de Exterior",
     "discount": 5,
     "tags": ["trepadora", "floración"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/buganvilla.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Buganvilia_rosa.jpg/1024px-Buganvilia_rosa.jpg"
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
     "category": "Plantas de Exterior",
     "discount": 0,
     "tags": ["aromática", "resistente"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/lavanda.png?v=1722782276&width=540"
+    "mainImage": "https://bolschare.com/wp-content/uploads/2024/04/lavender-1595581_1280-1024x682.jpg"
   },
   {
     "id": 20,
@@ -257,7 +257,7 @@
     "category": "Plantas de Exterior",
     "discount": 0,
     "tags": ["floración", "polinizadores"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/lantana.png?v=1722782276&width=540"
+    "mainImage": "https://www.cincopinos.cl/cdn/shop/products/1jipuN8v9Uc_-u_YmzeQkTgBMKXsY29wM_800x.jpg?v=1628626333"
   },
   {
     "id": 21,
@@ -270,7 +270,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["roseta", "fácil cuidado"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/echeveria.png?v=1722782276&width=540"
+    "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhFCQfvy7khtgSMBnnU-qGZSsG_x72r5ZLOTnbf5o6y1Re2PFP"
   },
   {
     "id": 22,
@@ -283,7 +283,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["medicinal", "resistente"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/aloe-vera.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Aloe_vera_-_Agri-Horticultural_Society_of_India_-_Alipore_-_Kolkata_2013-01-05_2327.JPG/330px-Aloe_vera_-_Agri-Horticultural_Society_of_India_-_Alipore_-_Kolkata_2013-01-05_2327.JPG"
   },
   {
     "id": 23,
@@ -296,7 +296,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["grande", "desértico"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/cactus-saguaro.png?v=1722782276&width=540"
+    "mainImage": "https://inaturalist-open-data.s3.amazonaws.com/photos/3046302/medium.jpg"
   },
   {
     "id": 24,
@@ -309,7 +309,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["floración", "invierno"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/cactus-navidad.png?v=1722782276&width=540"
+    "mainImage": "https://content.elmueble.com/medio/2020/11/27/cactus-de-navidad_7f63003e_674x446.jpg"
   },
   {
     "id": 25,
@@ -322,7 +322,7 @@
     "category": "Suculentas y Cactus",
     "discount": 5,
     "tags": ["pequeño", "decorativo"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/cactus-ball.png?v=1722782276&width=540"
+    "mainImage": "https://www.thespruce.com/thmb/l1p_p6aE02-fGH1Tonqq51YF6X4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grow-parodia-cacti-indoors-1902591-3-ecab7ad088924cc3a84c34621603bdf4.jpg"
   },
   {
     "id": 26,
@@ -335,7 +335,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["resistente", "fácil cuidado"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/sedum.png?v=1722782276&width=540"
+    "mainImage": "https://www.hogarmania.com/archivos/202302/sedum-tipos-y-cuidados-848x477x80xX.jpg"
   },
   {
     "id": 27,
@@ -348,7 +348,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["decorativa", "fácil cuidado"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/crassula.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Crassula_ovata_2011_1.jpg/330px-Crassula_ovata_2011_1.jpg"
   },
   {
     "id": 28,
@@ -361,7 +361,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["floración", "medicinal"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/cactus-san-pedro.png?v=1722782276&width=540"
+    "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEWHUYTCVN6wUi4ieDbR1tJc9lisD2uI-o82ufn0Ykvot3rHvh"
   },
   {
     "id": 29,
@@ -374,7 +374,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["grande", "resistente"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/agave.png?v=1722782276&width=540"
+    "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0OyUPrZ3Diakx3nqy4gys9sVhuE091bQp1nXtpj7ABelcyYZ1"
   },
   {
     "id": 30,
@@ -387,7 +387,7 @@
     "category": "Suculentas y Cactus",
     "discount": 0,
     "tags": ["decorativo", "resistente"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/cactus-bola-dorada.png?v=1722782276&width=540"
+    "mainImage": "https://plantastik.cl/wp-content/uploads/2021/03/echinocactus-grusonii-xl.jpg"
   },
   {
     "id": 31,
@@ -400,7 +400,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["decorativo", "interior", "exterior parcial"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/ficus-benjamina.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ficus_benjamina.jpg/360px-Ficus_benjamina.jpg"
   },
   {
     "id": 32,
@@ -413,7 +413,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["tropical", "exótico", "decorativo"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/palma-de-coco.png?v=1722782276&width=540"
+    "mainImage": "https://www.sospalm.com/wp-content/uploads/Cuanto-tiempo-tarda-un-cocotero-en-dar-cocos-1.jpg"
   },
   {
     "id": 33,
@@ -426,7 +426,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["sombrío", "resistente"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/roble-americano.png?v=1722782276&width=540"
+    "mainImage": "https://www.cincopinos.cl/cdn/shop/products/1vA8cNkJwVu-IiMgbVUhbDLk50VCQ2T9b_800x.jpg?v=1628626405"
   },
   {
     "id": 34,
@@ -439,7 +439,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["vertical", "cerca viva"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/cipres-italiano.png?v=1722782276&width=540"
+    "mainImage": "https://cdnx.jumpseller.com/camelia-y-lavanda/image/7118831/resize/1000/1100?1662562443"
   },
   {
     "id": 35,
@@ -452,7 +452,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["resistente", "floración amarilla"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/acacia.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Acacia_Negev.JPG/330px-Acacia_Negev.JPG"
   },
   {
     "id": 36,
@@ -465,7 +465,7 @@
     "category": "Árboles",
     "discount": 5,
     "tags": ["floración", "decorativo", "primavera"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/jacaranda.png?v=1722782276&width=540"
+    "mainImage": "https://www.bioparquebrasil.com.br/en/wp-content/uploads/sites/2/2018/06/jacaranda-view.jpg"
   },
   {
     "id": 37,
@@ -478,7 +478,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["frutal", "resistente", "mediterráneo"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/olivo.png?v=1722782276&width=540"
+    "mainImage": "https://www.cincopinos.cl/cdn/shop/products/1SP635l8Pvz9E04AMizxyG8Gmz9g2m_aL_1200x.jpg?v=1625150486"
   },
   {
     "id": 38,
@@ -491,7 +491,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["floración", "decorativo", "frutal"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/cerezo-en-flor.png?v=1722782276&width=540"
+    "mainImage": "https://viverochillan.cl/wp-content/uploads/2020/10/cerezo_flor-1.jpg"
   },
   {
     "id": 39,
@@ -504,7 +504,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["pérdida de hojas en invierno", "pantalla natural"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/pino-insigne.png?v=1722782276&width=540"
+    "mainImage": "https://www.munistgo.cl/wp-content/uploads/2023/11/Pino-2-810x440.jpg"
   },
   {
     "id": 40,
@@ -517,7 +517,7 @@
     "category": "Árboles",
     "discount": 0,
     "tags": ["gran tamaño", "sombra", "áreas húmedas"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/sauce-lloron.png?v=1722782276&width=540"
+    "mainImage": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTKx9hRvx_bIE90s0sBCN-A_uWJIszpInVAparCHvuP1Pytdp1H"
   },
   {
     "id": 41,
@@ -530,7 +530,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["fruto", "tomate", "fácil cuidado"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/tomate-cherry.png?v=1722782276&width=540"
+    "mainImage": "https://www.hogarmania.com/archivos/201512/consejos-cultivar-tomates-cherry-416x236x80xX.jpg"
   },
   {
     "id": 42,
@@ -543,7 +543,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["fresca", "rápido crecimiento", "ensalada"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/lechuga-romana.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Romaine_lettuce.jpg/375px-Romaine_lettuce.jpg"
   },
   {
     "id": 43,
@@ -556,7 +556,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["pimiento", "fácil cuidado", "colorido"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/pimiento-morron.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pimiento_morr%C3%B3n_%28Capsicum_annuum%29.jpg/375px-Pimiento_morr%C3%B3n_%28Capsicum_annuum%29.jpg"
   },
   {
     "id": 44,
@@ -569,7 +569,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["raíz", "fácil cuidado", "dulce"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/zanahoria.png?v=1722782276&width=540"
+    "mainImage": "https://content.cuerpomente.com/medio/2023/06/15/zanahoria_7d572751_230615155206_1280x720.jpg"
   },
   {
     "id": 45,
@@ -582,7 +582,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["bulbo", "aromático", "medicinal"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/ajo.png?v=1722782276&width=540"
+    "mainImage": "https://static.eldiario.es/clip/6d50a1af-72d2-411b-8d7f-b4c16307942b_16-9-aspect-ratio_default_0.jpg"
   },
   {
     "id": 46,
@@ -595,7 +595,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["aromática", "fácil cuidado", "cocina"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/albahaca.png?v=1722782276&width=540"
+    "mainImage": "https://i.blogs.es/aeca97/albahaca7/840_560.jpg"
   },
   {
     "id": 47,
@@ -608,7 +608,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["trepadora", "fresco", "ensaladas"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/pepino.png?v=1722782276&width=540"
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/ARS_cucumber.jpg/330px-ARS_cucumber.jpg"
   },
   {
     "id": 48,
@@ -621,7 +621,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["perenne", "fresca", "saludable"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/esparrago.png?v=1722782276&width=540"
+    "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSbnxW6kxMkEQb0WFqvulGc_TFGTF1GR5DQbspZEdhCuqC7Gn1pfCIf1AecbUvRrCb6EICHjw5ND0T5fYlBMknuezaCXUWsQjer71sw5w"
   },
   {
     "id": 49,
@@ -634,7 +634,7 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["aromático", "fácil cuidado", "ensaladas"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/perejil.png?v=1722782276&width=540"
+    "mainImage": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGBM9ZTsklrqfTfugtY621bODcNnIOLG5KST4VDpp-eRyfWMFH"
   },
   {
     "id": 50,
@@ -647,6 +647,6 @@
     "category": "Huerto",
     "discount": 0,
     "tags": ["frutal", "perenne", "deliciosa"],
-    "mainImage": "https://plantme.cl/cdn/shop/products/frambuesa.png?v=1722782276&width=540"
+    "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcToAdln7-YBwYseefCZorN4pGy2E6LBErdmtrU2keo3r1AFBl_i"
   }
 ]

@@ -3,17 +3,27 @@ import products from "../data/products.json"
 import FlatCard from "../components/FlatCard";
 import { colors } from '../global/colors'
 import { useEffect, useState } from "react";
+import Icon from 'react-native-vector-icons/MaterialIcons'
+import Search from "../components/Search";
 
-const ProductsScreen = ({category,setCategory}) => {
+const ProductsScreen = ({ navigation, route }) => {
     const [productsFiltered, setProductsFiltered] = useState([])
+    const [search,setSearch] = useState("")
+
+    const category = route.params
 
     useEffect(()=>{
         const productsTempFiltered = products.filter(product => product.category === category)
         setProductsFiltered(productsTempFiltered)
-    },[category])
+        if(search){
+            const productsTempSearched = productsTempFiltered.filter(product=>product.title.toLowerCase().includes(search.toLowerCase()))
+            setProductsFiltered(productsTempSearched)
+        }
+    },[category,search])
 
     const renderProductItem = ({item})=>{
         return(
+            <Pressable onPress={() => navigation.navigate("Producto", item.id)}>
             <FlatCard style={styles.productsContainer}>
                 <View>
                     <Image
@@ -45,11 +55,13 @@ const ProductsScreen = ({category,setCategory}) => {
                         <Text style={styles.price}>Precio: $ {item.price}</Text>
                 </View>
             </FlatCard>
+            </Pressable>
         )
     }
     return (
         <>
-        <Pressable onPress={()=>setCategory("")}><Text>Volver</Text></Pressable>
+        <Pressable onPress={()=>navigation.goBack()}><Icon style={styles.goBack} name="arrow-back" size={30}/></Pressable>
+        <Search setSearch={setSearch}/>
        <FlatList    
         data={productsFiltered}
         keyExtractor={item=>item.id}
@@ -111,5 +123,9 @@ const styles = StyleSheet.create({
     },
     noStockText: {
         color: 'red'
+    },
+    goBack:{
+        padding:10,
+        color:colors.azulCobalto
     }
 })

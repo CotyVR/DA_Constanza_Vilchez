@@ -3,7 +3,6 @@
     "name": "DA_Proyecto_Final_Vilchez",
     "slug": "DA_Proyecto_Final_Vilchez",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {

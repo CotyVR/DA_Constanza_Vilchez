@@ -2,10 +2,11 @@ import { StyleSheet, Text, View } from "react-native";
 /* Mi paleta de colores */
 import {colors} from "../global/colors"
 
-const Header = () => {
+const Header = ({subtitle}) => {
     return (
         <View style={styles.headerContainer}>
-            <Text style={styles.title}>Mundo Plantas</Text>
+            <Text style={styles.title}>Mundo Planta</Text>
+            <Text style={styles.subtitle}>{subtitle}</Text>
         </View>
     )
 }
