@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Mariana (Monstera Deliciosa)",
+      "shortDescription": "Será una muy buena elección si quieres una planta que deslumbre por sí sola. Además, le dará un toque de elegancia y tropicalidad a tus espacios.",
+      "longDescription": "Esta tropiplanta es de rápido crecimiento y de fácil cuidado, características suficientes para estar dentro de las favoritas para cualquier amante de las plantas.",
+      "price": 15000,
+      "stock": 5,
+      "brand": "Viveros Buena Vida",
+      "category": "Plantas de Interior",
+      "discount": 0,
+      "tags": ["new", "ofert"],
+      "mainImage": "https://plantme.cl/cdn/shop/products/12_242152d7-0263-4c31-9373-ad5f9710d35b.png?v=1722782276&width=540",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title": "Pothos (Epipremnum aureum)",
+      "shortDescription": "Planta trepadora y fácil de cuidar, ideal para colgar o colocar en estanterías.",
+      "longDescription": "El Pothos es una planta muy resistente que se adapta a distintos niveles de luz, siendo ideal para interiores de oficina o viviendas.",
+      "price": 8000,
+      "stock": 10,
+      "brand": "Viveros Green",
+      "category": "Plantas de Interior",
+      "discount": 5,
+      "tags": ["fácil cuidado", "trepadora"],
+      "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Epipremnum_aureum3.jpg/375px-Epipremnum_aureum3.jpg",
+      "quantity": 2
+    }
+  ]

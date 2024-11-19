@@ -1,5 +1,4 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
-import CartScreen from "../screens/CartScreen"
 import ReceiptsScreen from "../screens/ReceiptsScreen"
 import Header from "../components/Header"
 
@@ -13,7 +12,7 @@ const ReceiptsNavigator  = () => {
             header: ({ route }) => <Header subtitle={route.name} />,
           }}
         >
-            <Stack.Screen component={CartScreen} name="Recibos" />
+            <Stack.Screen component={ReceiptsScreen} name="Recibos" />
         </Stack.Navigator>
     )
 }
