@@ -3,10 +3,9 @@ import * as SplashScreen from "expo-splash-screen";
 
 import { StatusBar } from "expo-status-bar";
 
-import Header from "./src/components/Header";
 import { useEffect, useState } from "react";
 
-import Navigator from "./src/navigation/Navigator";
+import TabNavigator from "./src/navigation/TabNavigator";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -29,7 +28,7 @@ export default function App() {
 
   return (
     <>
-      <Navigator />
+      <TabNavigator />
       <StatusBar style="light" />
     </>
   );
