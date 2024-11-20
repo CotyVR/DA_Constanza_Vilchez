@@ -5,21 +5,21 @@ import { colors } from '../global/colors'
 import { useEffect, useState } from "react";
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import Search from "../components/Search";
+import { useSelector } from "react-redux";
 
 const ProductsScreen = ({ navigation, route }) => {
     const [productsFiltered, setProductsFiltered] = useState([])
     const [search,setSearch] = useState("")
 
-    const category = route.params
+    const productsFilteredByCategory = useSelector(state=>state.shopReducer.value.productsFilteredByCategory)
 
     useEffect(()=>{
-        const productsTempFiltered = products.filter(product => product.category === category)
-        setProductsFiltered(productsTempFiltered)
-        if(search){
-            const productsTempSearched = productsTempFiltered.filter(product=>product.title.toLowerCase().includes(search.toLowerCase()))
+        setProductsFiltered(productsFilteredByCategory)
+       if(search){
+            const productsTempSearched = productsFilteredByCategory.filter(product=>product.title.toLowerCase().includes(search.toLowerCase()))
             setProductsFiltered(productsTempSearched)
         }
-    },[category,search])
+    },[search])
 
     const renderProductItem = ({item})=>{
         return(

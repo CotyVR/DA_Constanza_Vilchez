@@ -2,14 +2,17 @@ import { StyleSheet, Text, View, FlatList, Image, Pressable, useWindowDimensions
 
 import FlatCard from "../components/FlatCard";
 import {useEffect,useState} from 'react'
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { setCategory } from "../features/shop/shopSlice";
 
 const CategoriesSreen = ({navigation}) => {
 
   const {width,height} = useWindowDimensions()
   const [isPortrait,setIsPortrait]=useState(true)
 
-  const categories = useSelector((state)=>state.shopSlice.value.categories)
+  const categories = useSelector((state)=>state.shopReducer.value.categories)
+
+  const dispatch = useDispatch()
 
   useEffect(()=>{
     if(width,height){
@@ -22,7 +25,12 @@ const CategoriesSreen = ({navigation}) => {
 
   const renderCategoryItem = ({ item, index }) => {
     return (
-      <Pressable onPress={()=>navigation.navigate('Productos', item.title)}>
+      <Pressable onPress={()=>{
+
+        dispatch(setCategory(item.title)) //esto es el action.payload de "shopSlice.js"
+        navigation.navigate('Productos')
+
+      }}>
       <FlatCard
         style={
           //Uso de operador ternario condicion?si verdadero:si falso --> Permite ver si algo es par o no --> Me permite alternar las direcciones de las imagenes con los titulos (se encuentra vinculado al final -- const -- row -- rowReverse)
