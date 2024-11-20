@@ -1,13 +1,15 @@
 import { StyleSheet, Text, View, FlatList, Image, Pressable, useWindowDimensions } from "react-native";
-/* No es necesario colocar las llaves, debido a que exportamos el archivo entero --> en "categories" */
-import categories from "../data/categories.json";
+
 import FlatCard from "../components/FlatCard";
 import {useEffect,useState} from 'react'
+import { useSelector } from "react-redux";
 
 const CategoriesSreen = ({navigation}) => {
 
   const {width,height} = useWindowDimensions()
   const [isPortrait,setIsPortrait]=useState(true)
+
+  const categories = useSelector((state)=>state.shopSlice.value.categories)
 
   useEffect(()=>{
     if(width,height){
