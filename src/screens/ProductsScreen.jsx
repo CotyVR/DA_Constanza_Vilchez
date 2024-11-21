@@ -1,4 +1,4 @@
-import { FlatList, StyleSheet, Text, View, Image, Pressable } from "react-native";
+import { FlatList, StyleSheet, Text, View, Image, Pressable, ActivityIndicator } from "react-native";
 import products from "../data/products.json"
 import FlatCard from "../components/FlatCard";
 import { colors } from '../global/colors'
@@ -6,13 +6,19 @@ import { useEffect, useState } from "react";
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import Search from "../components/Search";
 import { useSelector } from "react-redux";
+import { useGetProductsByCategoryQuery } from "../services/shopService";
 
 const ProductsScreen = ({ navigation, route }) => {
     const [productsFiltered, setProductsFiltered] = useState([])
     const [search,setSearch] = useState("")
 
-    const productsFilteredByCategory = useSelector(state=>state.shopReducer.value.productsFilteredByCategory)
+    //const productsFilteredByCategory = useSelector(state=>state.shopReducer.value.productsFilteredByCategory)
 
+    const category = useSelector(state =>state.shopReducer.value.categorySelected)
+
+    const {data: productsFilteredByCategory, error, isLoading} = useGetProductsByCategoryQuery(category)
+
+    
     useEffect(()=>{
         setProductsFiltered(productsFilteredByCategory)
        if(search){
@@ -60,13 +66,28 @@ const ProductsScreen = ({ navigation, route }) => {
     }
     return (
         <>
-        <Pressable onPress={()=>navigation.goBack()}><Icon style={styles.goBack} name="arrow-back" size={30}/></Pressable>
-        <Search setSearch={setSearch}/>
-       <FlatList    
-        data={productsFiltered}
-        keyExtractor={item=>item.id}
-        renderItem={renderProductItem}
-        />
+        {
+            isLoading
+            ?
+            <ActivityIndicator size="large" color={colors.azulCobalto}/>
+            :
+            error
+            ?
+            <Text>Error al cargar las categorias</Text>
+            :
+            <>
+
+            <Pressable onPress={()=>navigation.goBack()}><Icon style={styles.goBack} name="arrow-back" size={30}/></Pressable>
+            <Search setSearch={setSearch}/>
+            <FlatList    
+             data={productsFiltered}
+            keyExtractor={item=>item.id}
+            renderItem={renderProductItem}
+            />
+
+            </>
+        }
+     
         </>
     )
 }
