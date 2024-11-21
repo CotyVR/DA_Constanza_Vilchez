@@ -12,6 +12,9 @@ import Icon from "react-native-vector-icons/MaterialIcons";
 import { colors } from "../global/colors";
 import products from "../data/products.json";
 import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import { addItem } from "../features/cart/cartSlice";
+
 
 const ProductScreen = ({ route, navigation }) => {
   const [productFound, setProductFound] = useState({});
@@ -23,6 +26,8 @@ const ProductScreen = ({ route, navigation }) => {
   useEffect(() => {
     setProductFound(products.find((product) => product.id === productId));
   }, [productId]);
+
+  const dispatch = useDispatch()
 
   return (
     <ScrollView style={styles.productContainer}>
@@ -61,7 +66,8 @@ const ProductScreen = ({ route, navigation }) => {
       )}
       <Text style={styles.price}>Precio: $ {productFound.price}</Text>
       <Pressable 
-        style={({ pressed }) => [{ opacity: pressed ? 0.55 : 1}, styles.addToCartButton]} onPress={null}>
+        style={({ pressed }) => [{ opacity: pressed ? 0.55 : 1}, styles.addToCartButton]} 
+        onPress={()=>dispatch(addItem({...productFound, quantity:1}))}>
         <Text style={styles.textAddToCart}>Agregar al carrito</Text>
       </Pressable>
     </ScrollView>

@@ -6,21 +6,25 @@ import {
   Image,
   Pressable,
 } from "react-native";
-import cart from "../data/cart.json";
+//import cart from "../data/cart.json";
 import { colors } from "../global/colors";
 import FlatCard from "../components/FlatCard";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
 
 const CartScreen = () => {
 
-    const [total, setTotal] = useState(0)
+    //const [total, setTotal] = useState(0)
 
-    useEffect(() => {
+/*     useEffect(() => {
         let acumulador = 0
         cart.map(item => acumulador+=item.price*item.quantity)
         setTotal(acumulador)
-    },[cart])
+    },[cart]) */
+
+    const cart = useSelector(state => state.cartReducer.value.cartItems)
+    const total = useSelector (state => state.cartReducer.value.total)
 
   const FooterComponent = () => (
     <View style={styles.footerContainer}>
