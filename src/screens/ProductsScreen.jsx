@@ -5,8 +5,9 @@ import { colors } from '../global/colors'
 import { useEffect, useState } from "react";
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import Search from "../components/Search";
-import { useSelector } from "react-redux";
+import { useSelector,useDispatch } from 'react-redux'
 import { useGetProductsByCategoryQuery } from "../services/shopService";
+import {setProductId} from '../features/shop/shopSlice'
 
 const ProductsScreen = ({ navigation, route }) => {
     const [productsFiltered, setProductsFiltered] = useState([])
@@ -17,20 +18,21 @@ const ProductsScreen = ({ navigation, route }) => {
     const category = useSelector(state =>state.shopReducer.value.categorySelected)
 
     const {data: productsFilteredByCategory, error, isLoading} = useGetProductsByCategoryQuery(category)
-
     
+    dispatch = useDispatch()
+
     useEffect(()=>{
         setProductsFiltered(productsFilteredByCategory)
        if(search){
-            const productsTempSearched = productsFilteredByCategory.filter(product=>product.title.toLowerCase().includes(search.toLowerCase()))
-            setProductsFiltered(productsTempSearched)
+            setProductsFiltered(productsFilteredByCategory.filter(product => product.title.toLowerCase().includes(search.toLowerCase())))
         }
-    },[search])
+    },[search,productsFilteredByCategory])
 
     const renderProductItem = ({item})=>{
         return(
-            <Pressable onPress={() => navigation.navigate("Producto", item.id)}>
-            <FlatCard style={styles.productsContainer}>
+            <Pressable onPress={() => {dispatch(setProductId(item.id))
+                navigation.navigate("Producto")}}>
+            <FlatCard style={styles.productContainer}>
                 <View>
                     <Image
                         source={{uri:item.mainImage}}
@@ -95,7 +97,7 @@ const ProductsScreen = ({ navigation, route }) => {
 export default ProductsScreen
 
 const styles = StyleSheet.create({
-    productsContainer: {
+    productContainer: {
         flexDirection: 'row',
         padding: 10,
         justifyContent: "flex-start",

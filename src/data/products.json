@@ -7,7 +7,7 @@
     "price": 15000,
     "stock": 5,
     "brand": "Viveros Buena Vida",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 0,
     "tags": ["new", "ofert"],
     "mainImage": "https://plantme.cl/cdn/shop/products/12_242152d7-0263-4c31-9373-ad5f9710d35b.png?v=1722782276&width=540"
@@ -20,7 +20,7 @@
     "price": 8000,
     "stock": 10,
     "brand": "Viveros Green",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 5,
     "tags": ["fácil cuidado", "trepadora"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Epipremnum_aureum3.jpg/375px-Epipremnum_aureum3.jpg"
@@ -33,7 +33,7 @@
     "price": 11000,
     "stock": 7,
     "brand": "Viveros Viva",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 0,
     "tags": ["purificadora", "floración"],
     "mainImage": "https://theplantstore.cl/wp-content/uploads/2022/05/SPTHPHYLLM_SMALL_-662.png"
@@ -46,7 +46,7 @@
     "price": 20000,
     "stock": 6,
     "brand": "Viveros Sol y Sombra",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 10,
     "tags": ["grande", "follaje denso"],
     "mainImage": "https://d17jkdlzll9byv.cloudfront.net/wp-content/uploads/2024/01/ficus-elastica-shivereana-l-003-900x900.jpg"
@@ -59,7 +59,7 @@
     "price": 9500,
     "stock": 12,
     "brand": "Viveros Green",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 5,
     "tags": ["resistente", "fácil cuidado"],
     "mainImage": "https://www.kenaz.cl/cdn/shop/files/IMG-8585.jpg?v=1718160900&width=823"
@@ -72,7 +72,7 @@
     "price": 13000,
     "stock": 15,
     "brand": "Flora Casa",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 0,
     "tags": ["floración", "navidad"],
     "mainImage": "https://www.hogarmania.com/archivos/201911/cactus-de-navidad-848x477x80xX.jpg"
@@ -85,7 +85,7 @@
     "price": 18000,
     "stock": 8,
     "brand": "Viveros Sombra",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 5,
     "tags": ["tropical", "decorativo"],
     "mainImage": "https://theplantstore.cl/wp-content/uploads/2022/07/FCS_BJMN_M_01.png"
@@ -98,7 +98,7 @@
     "price": 8500,
     "stock": 0,
     "brand": "Viveros Oasis",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 0,
     "tags": ["decorativa", "poca luz"],
     "mainImage": "https://www.greensouq.ae/wp-content/uploads/2018/02/aglaonema-silver-queen-g.jpg"
@@ -111,7 +111,7 @@
     "price": 14000,
     "stock": 5,
     "brand": "Verde Hogar",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 0,
     "tags": ["follaje", "resistente"],
     "mainImage": "https://verdecora.es/blog/wp-content/uploads/2022/01/dracena-marginata-maceta.jpg.webp"
@@ -124,7 +124,7 @@
     "price": 22000,
     "stock": 4,
     "brand": "Viveros Tropicales",
-    "category": "Plantas de Interior",
+    "category": "plantas de interior",
     "discount": 0,
     "tags": ["palmera", "elegante"],
     "mainImage": "https://www.tugarden.com/4298-superlarge_default/kentia-howea-forsteriana.jpg"
@@ -137,7 +137,7 @@
     "price": 12000,
     "stock": 9,
     "brand": "Viveros Invierno",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 0,
     "tags": ["floración invernal", "resistente al frío"],
     "mainImage": "https://www.hogarmania.com/archivos/201105/ciclamen-xl-848x477x80xX.jpg"
@@ -150,7 +150,7 @@
     "price": 7500,
     "stock": 15,
     "brand": "Aromas del Campo",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 0,
     "tags": ["aromática", "resistente"],
     "mainImage": "https://mekero.cl/cdn/shop/files/romerom-min_540x.png?v=1700425038"
@@ -163,7 +163,7 @@
     "price": 22000,
     "stock": 4,
     "brand": "Verde Natural",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 0,
     "tags": ["árbol", "cerca viva"],
     "mainImage": "https://theplantstore.cl/wp-content/uploads/2023/12/pino-cipres02.png"
@@ -176,7 +176,7 @@
     "price": 9000,
     "stock": 12,
     "brand": "Suculentas del Sol",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 0,
     "tags": ["medicinal", "resistente"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Aloe_vera%2C_Jard%C3%ADn_Bot%C3%A1nico%2C_M%C3%BAnich%2C_Alemania_2012-04-21%2C_DD_01.JPG/330px-Aloe_vera%2C_Jard%C3%ADn_Bot%C3%A1nico%2C_M%C3%BAnich%2C_Alemania_2012-04-21%2C_DD_01.JPG"
@@ -189,7 +189,7 @@
     "price": 18000,
     "stock": 6,
     "brand": "Jardines Coloridos",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 10,
     "tags": ["floración", "decorativa"],
     "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNOXpj09O4JRURdGdVl-RtciJMKKxw-2pthZvMKlQ1QYg0vko8"
@@ -202,7 +202,7 @@
     "price": 14000,
     "stock": 10,
     "brand": "Flora Bella",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 0,
     "tags": ["bulbosa", "floración"],
     "mainImage": "https://cdnx.jumpseller.com/camelia-y-lavanda/image/27737317/resize/1000/1100?1674130815"
@@ -215,7 +215,7 @@
     "price": 9000,
     "stock": 20,
     "brand": "Viveros Sol",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 0,
     "tags": ["decorativa", "floración"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Geranio_rosa.jpg/330px-Geranio_rosa.jpg"
@@ -228,7 +228,7 @@
     "price": 16000,
     "stock": 8,
     "brand": "Flora Viva",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 5,
     "tags": ["trepadora", "floración"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Buganvilia_rosa.jpg/1024px-Buganvilia_rosa.jpg"
@@ -241,7 +241,7 @@
     "price": 12000,
     "stock": 15,
     "brand": "Jardín Aromático",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 0,
     "tags": ["aromática", "resistente"],
     "mainImage": "https://bolschare.com/wp-content/uploads/2024/04/lavender-1595581_1280-1024x682.jpg"
@@ -254,7 +254,7 @@
     "price": 11000,
     "stock": 12,
     "brand": "Viveros Sol y Mar",
-    "category": "Plantas de Exterior",
+    "category": "plantas de exterior",
     "discount": 0,
     "tags": ["floración", "polinizadores"],
     "mainImage": "https://www.cincopinos.cl/cdn/shop/products/1jipuN8v9Uc_-u_YmzeQkTgBMKXsY29wM_800x.jpg?v=1628626333"
@@ -267,7 +267,7 @@
     "price": 8000,
     "stock": 18,
     "brand": "Suculentas de Sol",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["roseta", "fácil cuidado"],
     "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhFCQfvy7khtgSMBnnU-qGZSsG_x72r5ZLOTnbf5o6y1Re2PFP"
@@ -280,7 +280,7 @@
     "price": 9000,
     "stock": 15,
     "brand": "Suculentas del Sol",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["medicinal", "resistente"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Aloe_vera_-_Agri-Horticultural_Society_of_India_-_Alipore_-_Kolkata_2013-01-05_2327.JPG/330px-Aloe_vera_-_Agri-Horticultural_Society_of_India_-_Alipore_-_Kolkata_2013-01-05_2327.JPG"
@@ -293,7 +293,7 @@
     "price": 25000,
     "stock": 5,
     "brand": "Cactus del Desierto",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["grande", "desértico"],
     "mainImage": "https://inaturalist-open-data.s3.amazonaws.com/photos/3046302/medium.jpg"
@@ -306,7 +306,7 @@
     "price": 13000,
     "stock": 10,
     "brand": "Flora Casa",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["floración", "invierno"],
     "mainImage": "https://content.elmueble.com/medio/2020/11/27/cactus-de-navidad_7f63003e_674x446.jpg"
@@ -319,7 +319,7 @@
     "price": 6000,
     "stock": 20,
     "brand": "Desierto Verde",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 5,
     "tags": ["pequeño", "decorativo"],
     "mainImage": "https://www.thespruce.com/thmb/l1p_p6aE02-fGH1Tonqq51YF6X4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grow-parodia-cacti-indoors-1902591-3-ecab7ad088924cc3a84c34621603bdf4.jpg"
@@ -332,7 +332,7 @@
     "price": 7000,
     "stock": 15,
     "brand": "Jardines Suculentos",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["resistente", "fácil cuidado"],
     "mainImage": "https://www.hogarmania.com/archivos/202302/sedum-tipos-y-cuidados-848x477x80xX.jpg"
@@ -345,7 +345,7 @@
     "price": 8000,
     "stock": 10,
     "brand": "Jardín de Suculentas",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["decorativa", "fácil cuidado"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Crassula_ovata_2011_1.jpg/330px-Crassula_ovata_2011_1.jpg"
@@ -358,7 +358,7 @@
     "price": 22000,
     "stock": 4,
     "brand": "Cactus del Mundo",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["floración", "medicinal"],
     "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSEWHUYTCVN6wUi4ieDbR1tJc9lisD2uI-o82ufn0Ykvot3rHvh"
@@ -371,7 +371,7 @@
     "price": 15000,
     "stock": 6,
     "brand": "Viveros Agaves",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["grande", "resistente"],
     "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0OyUPrZ3Diakx3nqy4gys9sVhuE091bQp1nXtpj7ABelcyYZ1"
@@ -384,7 +384,7 @@
     "price": 12000,
     "stock": 8,
     "brand": "Cactus del Desierto",
-    "category": "Suculentas y Cactus",
+    "category": "suculentas y cactus",
     "discount": 0,
     "tags": ["decorativo", "resistente"],
     "mainImage": "https://plantastik.cl/wp-content/uploads/2021/03/echinocactus-grusonii-xl.jpg"
@@ -397,7 +397,7 @@
     "price": 25000,
     "stock": 8,
     "brand": "Árboles y Plantas",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["decorativo", "interior", "exterior parcial"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Ficus_benjamina.jpg/360px-Ficus_benjamina.jpg"
@@ -410,7 +410,7 @@
     "price": 45000,
     "stock": 6,
     "brand": "Jardín Tropical",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["tropical", "exótico", "decorativo"],
     "mainImage": "https://www.sospalm.com/wp-content/uploads/Cuanto-tiempo-tarda-un-cocotero-en-dar-cocos-1.jpg"
@@ -423,7 +423,7 @@
     "price": 60000,
     "stock": 5,
     "brand": "Árboles del Bosque",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["sombrío", "resistente"],
     "mainImage": "https://www.cincopinos.cl/cdn/shop/products/1vA8cNkJwVu-IiMgbVUhbDLk50VCQ2T9b_800x.jpg?v=1628626405"
@@ -436,7 +436,7 @@
     "price": 20000,
     "stock": 10,
     "brand": "Verde Natural",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["vertical", "cerca viva"],
     "mainImage": "https://cdnx.jumpseller.com/camelia-y-lavanda/image/7118831/resize/1000/1100?1662562443"
@@ -449,7 +449,7 @@
     "price": 18000,
     "stock": 12,
     "brand": "Flora Autóctona",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["resistente", "floración amarilla"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Acacia_Negev.JPG/330px-Acacia_Negev.JPG"
@@ -462,7 +462,7 @@
     "price": 35000,
     "stock": 7,
     "brand": "Árboles Tropicales",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 5,
     "tags": ["floración", "decorativo", "primavera"],
     "mainImage": "https://www.bioparquebrasil.com.br/en/wp-content/uploads/sites/2/2018/06/jacaranda-view.jpg"
@@ -475,7 +475,7 @@
     "price": 22000,
     "stock": 10,
     "brand": "Olivos del Mediterráneo",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["frutal", "resistente", "mediterráneo"],
     "mainImage": "https://www.cincopinos.cl/cdn/shop/products/1SP635l8Pvz9E04AMizxyG8Gmz9g2m_aL_1200x.jpg?v=1625150486"
@@ -488,7 +488,7 @@
     "price": 40000,
     "stock": 5,
     "brand": "Frutales del Paraíso",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["floración", "decorativo", "frutal"],
     "mainImage": "https://viverochillan.cl/wp-content/uploads/2020/10/cerezo_flor-1.jpg"
@@ -501,7 +501,7 @@
     "price": 28000,
     "stock": 10,
     "brand": "Pinos y Coníferas",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["pérdida de hojas en invierno", "pantalla natural"],
     "mainImage": "https://www.munistgo.cl/wp-content/uploads/2023/11/Pino-2-810x440.jpg"
@@ -514,7 +514,7 @@
     "price": 35000,
     "stock": 6,
     "brand": "Jardines Acuáticos",
-    "category": "Árboles",
+    "category": "arboles",
     "discount": 0,
     "tags": ["gran tamaño", "sombra", "áreas húmedas"],
     "mainImage": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTKx9hRvx_bIE90s0sBCN-A_uWJIszpInVAparCHvuP1Pytdp1H"
@@ -527,7 +527,7 @@
     "price": 6000,
     "stock": 20,
     "brand": "Huertos Urbanos",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["fruto", "tomate", "fácil cuidado"],
     "mainImage": "https://www.hogarmania.com/archivos/201512/consejos-cultivar-tomates-cherry-416x236x80xX.jpg"
@@ -540,7 +540,7 @@
     "price": 3500,
     "stock": 30,
     "brand": "Huertos Frescos",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["fresca", "rápido crecimiento", "ensalada"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Romaine_lettuce.jpg/375px-Romaine_lettuce.jpg"
@@ -553,7 +553,7 @@
     "price": 8000,
     "stock": 15,
     "brand": "Verduras del Huerto",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["pimiento", "fácil cuidado", "colorido"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Pimiento_morr%C3%B3n_%28Capsicum_annuum%29.jpg/375px-Pimiento_morr%C3%B3n_%28Capsicum_annuum%29.jpg"
@@ -566,7 +566,7 @@
     "price": 4500,
     "stock": 25,
     "brand": "Huertos Naturales",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["raíz", "fácil cuidado", "dulce"],
     "mainImage": "https://content.cuerpomente.com/medio/2023/06/15/zanahoria_7d572751_230615155206_1280x720.jpg"
@@ -579,7 +579,7 @@
     "price": 2500,
     "stock": 40,
     "brand": "Huertos Caseros",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["bulbo", "aromático", "medicinal"],
     "mainImage": "https://static.eldiario.es/clip/6d50a1af-72d2-411b-8d7f-b4c16307942b_16-9-aspect-ratio_default_0.jpg"
@@ -592,7 +592,7 @@
     "price": 3500,
     "stock": 50,
     "brand": "Herbolaria Casera",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["aromática", "fácil cuidado", "cocina"],
     "mainImage": "https://i.blogs.es/aeca97/albahaca7/840_560.jpg"
@@ -605,7 +605,7 @@
     "price": 6000,
     "stock": 22,
     "brand": "Verduras Frescas",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["trepadora", "fresco", "ensaladas"],
     "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/ARS_cucumber.jpg/330px-ARS_cucumber.jpg"
@@ -618,7 +618,7 @@
     "price": 8000,
     "stock": 18,
     "brand": "Huertos Perennes",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["perenne", "fresca", "saludable"],
     "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSbnxW6kxMkEQb0WFqvulGc_TFGTF1GR5DQbspZEdhCuqC7Gn1pfCIf1AecbUvRrCb6EICHjw5ND0T5fYlBMknuezaCXUWsQjer71sw5w"
@@ -631,7 +631,7 @@
     "price": 3000,
     "stock": 30,
     "brand": "Jardines Aromáticos",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["aromático", "fácil cuidado", "ensaladas"],
     "mainImage": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGBM9ZTsklrqfTfugtY621bODcNnIOLG5KST4VDpp-eRyfWMFH"
@@ -644,7 +644,7 @@
     "price": 12000,
     "stock": 8,
     "brand": "Frutos del Bosque",
-    "category": "Huerto",
+    "category": "huerto",
     "discount": 0,
     "tags": ["frutal", "perenne", "deliciosa"],
     "mainImage": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcToAdln7-YBwYseefCZorN4pGy2E6LBErdmtrU2keo3r1AFBl_i"

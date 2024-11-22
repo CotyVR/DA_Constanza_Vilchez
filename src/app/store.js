@@ -4,11 +4,11 @@ import cartReducer from "../features/cart/cartSlice";
 import { shopApi } from "../services/shopService";
 
 export const store = configureStore({
-  reducer: { 
+  reducer: {
     shopReducer,
     cartReducer,
-    [shopApi.reducerPath] : shopApi.reducer, 
+    [shopApi.reducerPath]: shopApi.reducer,
   },
-    middleware: (getDefaultMiddleware) => 
-        getDefaultMiddleware().concat(shopApi.middleware)
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(shopApi.middleware),
 });

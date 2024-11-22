@@ -6,30 +6,40 @@ import {
   useWindowDimensions,
   Image,
   FlatList,
-  ScrollView
+  ScrollView,
+  ActivityIndicator
 } from "react-native";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import { colors } from "../global/colors";
-import products from "../data/products.json";
+//import products from "../data/products.json";
 import { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "../features/cart/cartSlice";
-
+import { useGetProductQuery } from "../services/shopService";
 
 const ProductScreen = ({ route, navigation }) => {
-  const [productFound, setProductFound] = useState({});
 
-  const productId = route.params;
 
-  const { width, height } = useWindowDimensions;
+  const productId = useSelector(state =>state.shopReducer.value.productId)
 
-  useEffect(() => {
-    setProductFound(products.find((product) => product.id === productId));
-  }, [productId]);
+  const { width, height } = useWindowDimensions()
+
+  const {data: productFound, error, isLoading} = useGetProductQuery(productId)
 
   const dispatch = useDispatch()
 
   return (
+    <>
+    {
+      isLoading
+      ?
+      <ActivityIndicator size="large" color={colors.azulCobalto}/>
+      :
+      error
+      ?
+      <Text>Error al cargar el producto</Text>
+      :
+   
     <ScrollView style={styles.productContainer}>
       <Pressable onPress={() => navigation.goBack()}>
         <Icon style={styles.goBack} name="arrow-back" size={30} />
@@ -53,17 +63,17 @@ const ProductScreen = ({ route, navigation }) => {
         }
         </View>
 
-        {productFound.discount > 0 && (
+        {productFound.discount > 0 && 
           <View style={styles.discount}>
             <Text style={styles.discountText}>
-              Descuento {productFound.discount} %
+              - {productFound.discount} %
             </Text>
           </View>
-        )}
+        }
       </View>
-      {productFound.stock <= 0 && (
+      {productFound.stock <= 0 && 
         <Text style={styles.noStockText}>Sin Stock</Text>
-      )}
+      }
       <Text style={styles.price}>Precio: $ {productFound.price}</Text>
       <Pressable 
         style={({ pressed }) => [{ opacity: pressed ? 0.55 : 1}, styles.addToCartButton]} 
@@ -71,6 +81,8 @@ const ProductScreen = ({ route, navigation }) => {
         <Text style={styles.textAddToCart}>Agregar al carrito</Text>
       </Pressable>
     </ScrollView>
+     }
+    </>
   );
 };
 
