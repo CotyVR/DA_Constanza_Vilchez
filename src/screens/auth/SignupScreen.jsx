@@ -31,7 +31,6 @@ const SignupScreen = ({navigation}) => {
         if(result.status==="rejected"){
   
         }else if (result.status==="fulfilled"){
-            
             dispatch(setUser(result.data))
         }
     }, [result])

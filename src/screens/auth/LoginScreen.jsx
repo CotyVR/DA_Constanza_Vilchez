@@ -13,14 +13,13 @@ const LoginScreen = ({navigation}) => {
     const [triggerLogin, result] = useLoginMutation()
     useEffect(()=>{
         if(result.status==="rejected"){
-            console.log("Error al iniciar sesión", result)
+      
         }else if(result.status==="fulfilled"){
-            console.log("Usuario logueado con éxito")
+
             dispatch(setUser(result.data))
         }
     },[result])
-    const onsubmit = ()=>{
-        //console.log(email,password)       
+    const onsubmit = ()=>{     
         triggerLogin({email,password})
     }
     return (

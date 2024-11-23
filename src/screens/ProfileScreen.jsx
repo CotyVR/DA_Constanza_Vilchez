@@ -5,13 +5,16 @@ import CameraIcon from '../components/CameraIcon'
 import { useSelector, useDispatch } from 'react-redux'
 import * as ImagePicker from 'expo-image-picker'
 import { setProfilePicture } from '../features/auth/authSlice'
+import { usePutProfilePictureMutation } from '../services/userService'
 
 const ProfileScreen = () => {
     
     const user = useSelector(state => state.authReducer.value.email)
     const image = useSelector(state=>state.authReducer.value.profilePicture)
+    const localId = useSelector(state=>state.authReducer.value.localId)
     const dispatch = useDispatch()
 
+    const [triggerPutProfilePicture, result] = usePutProfilePictureMutation()
 
     const verifyCameraPermissions = async () => {
         const {granted} = await ImagePicker.requestCameraPermissionsAsync()
