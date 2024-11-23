@@ -1,27 +1,27 @@
 [
     {
         "id": 1,
-        "title": "Plantas de Interior",
+        "title": "plantas de interior",
         "image": "https://content.elmueble.com/medio/2023/01/30/35-plantas-de-interior-resistentes_00000000_85b501da_230130171349_900x900.jpg"
     },
     {
         "id": 2,
-        "title": "Plantas de Exterior",
+        "title": "plantas de exterior",
         "image": "https://adamsfarms.com/wp-content/uploads/2023/02/Perennial-Plants-in-Garden.jpg" 
     },
     {
         "id": 3,
-        "title": "Suculentas y Cactus",
+        "title": "suculentas y cactus",
         "image": "https://img.freepik.com/foto-gratis/disposicion-rectangular-suculentas-cactus-suculentas-plantador_1127-3108.jpg?ga=GA1.1.188528425.1711738953&semt=ais_hybrid" 
     },
     {
         "id": 4,
-        "title": "Árboles",
+        "title": "arboles",
         "image": "https://images.pexels.com/photos/1632790/pexels-photo-1632790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
     },
     {
         "id": 5,
-        "title": "Huerto",
+        "title": "huerto",
         "image": "https://media.istockphoto.com/id/1418173645/es/foto/huerto.jpg?s=612x612&w=0&k=20&c=xF_Ry_kgY4X8ekK7nWSlOjfBfkNaOEYde9a3C9j-r6g=" 
     }
 ]

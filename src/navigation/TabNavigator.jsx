@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { NavigationContainer } from "@react-navigation/native";
+
 import { StyleSheet } from "react-native";
 import { colors } from "../global/colors";
 import  Icon  from 'react-native-vector-icons/MaterialIcons';

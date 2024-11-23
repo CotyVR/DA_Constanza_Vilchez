@@ -5,7 +5,7 @@ import { StatusBar } from "expo-status-bar";
 
 import { useEffect, useState } from "react";
 
-import TabNavigator from "./src/navigation/TabNavigator";
+import MainNavigator from "./src/navigation/MainNavigatior";
 
 import { store } from "./src/app/store";
 import { Provider } from 'react-redux'
@@ -31,7 +31,7 @@ export default function App() {
 
   return (
     <Provider store={store}>
-      <TabNavigator />
+      <MainNavigator/>
       <StatusBar style="light" />
     </Provider>
   );
