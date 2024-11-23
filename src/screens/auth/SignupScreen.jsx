@@ -37,7 +37,6 @@ const SignupScreen = () => {
     }, [result])
 
     const onsubmit = ()=>{
-        //console.log(email,password,confirmPassword)
         triggerSignup({email, password})
     }
 

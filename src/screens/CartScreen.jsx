@@ -20,6 +20,8 @@ const CartScreen = ({navigation}) => {
     const total = useSelector (state => state.cartReducer.value.total)
     const [triggerPost, result] = usePostReceiptMutation()
 
+    const cartLength = useSelector(state=>state.cartReducer.value.cartLenght)
+
     const dispatch = useDispatch()
 
   const FooterComponent = () => (
@@ -64,15 +66,21 @@ const CartScreen = ({navigation}) => {
   );
 
   return (
-    <FlatList
-      data={cart}
-      keyExtractor={(item) => item.id}
-      renderItem={renderCartItem}
-      ListHeaderComponent={
-        <Text style={styles.cartScreenTitle}>Tu carrito:</Text>
-      }
-      ListFooterComponent={<FooterComponent />}
-    />
+    <>
+        {
+        cartLength>0
+        ?
+        <FlatList
+            data={cart}
+            keyExtractor={item => item.id}
+            renderItem={renderCartItem}
+            ListHeaderComponent={<Text style={styles.cartScreenTitle}>Tu carrito:</Text>}
+            ListFooterComponent={<FooterComponent />}
+        />
+        :
+        <View style={styles.cartEmpty}><Text style={styles.cartEmptyText} >Aún no hay productos en el carrito</Text></View>
+        }
+        </>
   );
 };
 
