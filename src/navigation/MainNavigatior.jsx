@@ -9,6 +9,8 @@ import AuthNavigator from "./AuthNavigator";
 import { useGetProfilePictureQuery } from "../services/userService";
 import { setProfilePicture } from "../features/auth/authSlice";
 
+import { fetchSession } from "../db";
+import { setUser } from "../features/auth/authSlice";
 
 const MainNavigator = () =>{
     const user = useSelector(state => state.authReducer.value.email)
@@ -23,9 +25,9 @@ const MainNavigator = () =>{
             (async ()=>{
                 try{
                     const session = await fetchSession()
-                    //console.log("Session: ",session)
+               
                     if(session.length){
-                        //console.log("session _array",session)
+                        
                         dispatch(setUser(session[0]))
                     }
                 }catch(error){
