@@ -40,7 +40,8 @@ export const cartSlice = createSlice({
         return null
       },
       clearCart: (state) => {
-        return null
+        state.value.cartItems=[]
+        state.value.total=null
       }
     }
 })

@@ -12,7 +12,7 @@ const ReceiptsNavigator  = () => {
             header: ({ route }) => <Header subtitle={route.name} />,
           }}
         >
-            <Stack.Screen component={ReceiptsScreen} name="Recibos" />
+            <Stack.Screen component={ReceiptsScreen} name="receipts" />
         </Stack.Navigator>
     )
 }

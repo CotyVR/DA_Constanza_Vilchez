@@ -6,30 +6,33 @@ import {
   Image,
   Pressable,
 } from "react-native";
-//import cart from "../data/cart.json";
 import { colors } from "../global/colors";
 import FlatCard from "../components/FlatCard";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import { useState, useEffect } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { usePostReceiptMutation } from "../services/receiptsService";
+import { clearCart } from "../features/cart/cartSlice";
 
-const CartScreen = () => {
-
-    //const [total, setTotal] = useState(0)
-
-/*     useEffect(() => {
-        let acumulador = 0
-        cart.map(item => acumulador+=item.price*item.quantity)
-        setTotal(acumulador)
-    },[cart]) */
+const CartScreen = ({navigation}) => {
 
     const cart = useSelector(state => state.cartReducer.value.cartItems)
     const total = useSelector (state => state.cartReducer.value.total)
+    const [triggerPost, result] = usePostReceiptMutation()
+
+    const dispatch = useDispatch()
 
   const FooterComponent = () => (
     <View style={styles.footerContainer}>
       <Text style={styles.footerTotal}>Total: $ {total} </Text>
-      <Pressable style={styles.confirmButton}>
+      <Pressable style={styles.confirmButton} onPress={()=>{
+        triggerPost({cart,total,createdAt: Date.now()})
+        dispatch(clearCart())
+        navigation.navigate("Receipts")
+
+      }}>
+
+
         <Text style={styles.confirmButtonText}>Confirmar</Text>
       </Pressable>
     </View>
