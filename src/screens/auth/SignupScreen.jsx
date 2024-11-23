@@ -9,10 +9,37 @@ import {
 import { LinearGradient } from "expo-linear-gradient";
 import { colors } from "../../global/colors";
 import { useState, useEffect } from "react";
+import { useSignupMutation } from "../../services/authService";
+import { setUser } from "../../features/auth/authSlice";
+import { useDispatch } from "react-redux";
+
+
 
 const textInputWidth = Dimensions.get('window').width*0.7
 
 const SignupScreen = () => {
+
+    const [email,setEmail] = useState("")
+    const [password, setPassword] = useState("")
+    const [confirmPassword, setConfirmPassword] = useState("") 
+
+    const [triggerSignup, result] = useSignupMutation()
+
+    const dispatch = useDispatch()
+
+    useEffect(()=>{
+        if(result.status==="rejected"){
+  
+        }else if (result.status==="fulfilled"){
+            
+            dispatch(setUser(result.data))
+        }
+    }, [result])
+
+    const onsubmit = ()=>{
+        //console.log(email,password,confirmPassword)
+        triggerSignup({email, password})
+    }
 
   return (
     <LinearGradient
@@ -25,20 +52,20 @@ const SignupScreen = () => {
       <Text style={styles.subTitle}>Registrate</Text>
       <View style={styles.inputContainer}>
         <TextInput
-          //onChangeText={(text) => setEmail(text)}
+          onChangeText={(text) => setEmail(text)}
           placeholderTextColor="#EBEBEB"
           placeholder="Email"
           style={styles.textInput}
         />
         <TextInput
-          //onChangeText={(text) => setPassword(text)}
+          onChangeText={(text) => setPassword(text)}
           placeholderTextColor="#EBEBEB"
           placeholder="Password"
           style={styles.textInput}
           secureTextEntry
         />
         <TextInput
-          //onChangeText={(text) => setConfirmPassword(text)}
+          onChangeText={(text) => setConfirmPassword(text)}
           placeholderTextColor="#EBEBEB"
           placeholder="Repetir password"
           style={styles.textInput}
@@ -59,7 +86,7 @@ const SignupScreen = () => {
         </Pressable>
       </View>
 
-      <Pressable style={styles.btn} onPress={null}>
+      <Pressable style={styles.btn} onPress={onsubmit}>
         <Text style={styles.btnText}>Crear cuenta</Text>
       </Pressable>
 
